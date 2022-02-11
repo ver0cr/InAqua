@@ -216,6 +216,7 @@ section{
 
 .home .content{
     max-width: 60rem;
+    opacity: none;
 }
 
 .home .content h3{

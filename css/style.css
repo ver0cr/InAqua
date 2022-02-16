@@ -211,7 +211,7 @@ section{
     background:url(../images/forest.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    opacity: 50%;
+    opacity: 100%;
 }
 
 .home .content{

@@ -258,13 +258,6 @@ section{
     color:#fff;
 }
 
-.about .row .content p{
-    font-size: 1.6rem;
-    color:#ccc;
-    padding:1rem 0;
-    line-height: 1.8;
-}
-
 
 .services .box-container{
     display: grid;
@@ -302,6 +295,14 @@ section{
     font-size: 1.5rem;
     color:var(--main-color);
 }
+
+.about .row .content p{
+    font-size: 1.6rem;
+    color:#ccc;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+
 
 .menu .box-container{
     display: grid;

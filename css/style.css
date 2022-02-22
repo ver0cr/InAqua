@@ -327,15 +327,12 @@ section{
 }
 
 .menu .box-container .box .price{
-    color: #fff;
-    font-size: 2.5rem;
-    padding:.5rem 0;
-}
-
-.menu .box-container .box .price span{
-    font-size: 1.5rem;
-    text-decoration: line-through;
-    font-weight: lighter;
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--main-color);
 }
 
 .menu .box-container .box:hover{

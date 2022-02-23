@@ -312,11 +312,10 @@ section{
     padding:.9rem 3rem;
     font-size: 1.7rem;
     color:#fff;
-    background-color: white;
-}
+    background: var(--main-color);}
 
 .menu .box-container .box:hover{
-    background:#d3ad7f;
+    background: white;
 }
 
 .menu .box-container .box:hover > *{

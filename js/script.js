@@ -8,7 +8,7 @@ const firebaseConfig = {
     measurementId: "G-3XLN587HXP"
   };
 
-  firebase.initializeApp(config);
+  firebase.initializeApp(firebaseConfig);
 
 // Reference messages collection
 var messagesRef = firebase.database().ref('messages');

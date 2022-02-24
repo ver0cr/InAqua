@@ -28,7 +28,7 @@ function submitForm(e) {
 
   // Save message
   saveMessage(name, email, phone, message);
-
+/*
   // Show alert
   document.querySelector('.alert').style.display = 'block';
 
@@ -36,7 +36,7 @@ function submitForm(e) {
   setTimeout(function () {
     document.querySelector('.alert').style.display = 'none';
   }, 3000);
-
+*/
   // Clear form
   document.getElementById('contactForm').reset();
 }

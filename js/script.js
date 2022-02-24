@@ -9,7 +9,7 @@ const firebaseConfig = {
 };
 
 firebase.initializeApp(firebaseConfig);
-const db = firebase.getFirestore();
+var db = firebase.firestore();
 // Reference messages collection
 //var messagesRef = firebase.database().ref('messages');
 

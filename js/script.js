@@ -56,7 +56,7 @@ function saveMessage(name, email, phone, message) {
      message:message
    }); */
 
-  firebase.db.collection("messages").add({
+  db.collection("messages").add({
     name: name,
     email: email,
     phone: phone,

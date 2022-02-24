@@ -14,7 +14,7 @@ var db = firebase.firestore();
 //var messagesRef = firebase.database().ref('messages');
 
 // Listen for form submit
-document.getElementById('contactForm').addEventListener('submit', submitForm);
+document.getElementById('contactForm').addEventListener('click', submitForm);
 
 // Submit form
 function submitForm(e) {

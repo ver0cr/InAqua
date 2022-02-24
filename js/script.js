@@ -9,7 +9,7 @@ const firebaseConfig = {
 };
 
 firebase.initializeApp(firebaseConfig);
-
+const db = firebase.getFirestore();
 // Reference messages collection
 //var messagesRef = firebase.database().ref('messages');
 
@@ -55,6 +55,7 @@ function saveMessage(name, email, phone, message) {
      phone:phone,
      message:message
    }); */
+
   firebase.db.collection("messages").add({
     name: name,
     email: email,

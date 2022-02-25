@@ -162,6 +162,7 @@ section{
 
 .about .row .image{
     flex:1 1 45rem;
+    text-align: center;
 }
 
 .about .row .image img{
@@ -192,7 +193,7 @@ section{
 
 
 .services .box-container .box img{
-    height: 20 rem;
+    width: 80%;
 }
 
 .about .row .content p{

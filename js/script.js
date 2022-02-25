@@ -38,7 +38,7 @@ function submitForm(e) {
   }, 3000);
 */
   // Clear form
-  document.getElementById('contactForm').reset();
+  document.getElementById('formulario').reset();
 }
 
 // Function to get get form values
